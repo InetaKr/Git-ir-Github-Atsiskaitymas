@@ -10,7 +10,6 @@
     background-color: rgba(63, 62, 62, 0.5);
   }
   .tab-panel {
-    display: none;
     position: relative;
     background-color: #e55d5dc7;
     margin: 70px auto;
