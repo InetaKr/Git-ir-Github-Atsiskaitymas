@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap');
+@import url('./Tabs.css');
 
 body {
     margin: 0;
@@ -6,14 +7,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     font-family:'Noto Sans JP';
   }
 
   #wrapper {
     background-color: rgba(0, 0, 0, 0.342);
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     align-content: center;
   }
@@ -111,3 +112,4 @@ body {
     background-color: rgba(228, 25, 25, 0.5);
     cursor: pointer;
 }
+
