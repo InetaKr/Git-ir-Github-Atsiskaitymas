@@ -112,3 +112,8 @@ body {
     background-color: rgba(228, 25, 25, 0.5);
     cursor: pointer;
 }
+
+.formWrapper .formButtons button a{
+  color: white;
+  text-decoration: none;
+}
