@@ -113,3 +113,14 @@ body {
     cursor: pointer;
 }
 
+@media (min-width: 768px){
+  .formWrapper .formButtons {
+    display: flex;
+    flex-direction: row;
+  }
+  .formWrapper .formButtons button {
+   height: auto;
+   width: 25%;
+  }
+
+}
