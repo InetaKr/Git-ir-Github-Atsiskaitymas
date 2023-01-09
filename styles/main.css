@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;700&display=swap');
+@import url('./Tabs.css');
+
+body {
+    margin: 0;
+    background-image: url('../resources/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family:'Noto Sans JP';
+  }
+
+  #wrapper {
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+  }
+
+  .icon {
+    padding-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+
+  .icon i {
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .icon .vertical-line {
+    background-color: white;
+    height: 25px;
+    width: 1px;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-left: 50px;
+  }
+
+  .content .horizontal-line{
+    background-color: white;
+    width: 90%;
+    margin: 0;
+    height: 1px;
+  }
+
+.content h1{
+    font-size: 2rem;
+    letter-spacing: 0.4rem; 
+}
+
+.content  p{
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+}
+
+.content a{
+    color: white;
+    text-decoration: underline dotted;
+}
+
+.content a:hover{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+  }
+
+.formWrapper .vertical-line {
+    background-color: white;
+    height: 60px;
+    width: 1px;
+  }
+
+.formWrapper .formButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%; 
+  }
+
+.formWrapper .formButtons button {
+    color: white;
+    letter-spacing: 0.2rem;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 15px 30px;  
+  }
+
+.formWrapper .formButtons button:hover{
+    background-color: rgba(228, 25, 25, 0.5);
+    cursor: pointer;
+}
+
+@media (min-width: 768px){
+  .formWrapper .formButtons {
+    display: flex;
+    flex-direction: row;
+  }
+  .formWrapper .formButtons button {
+   height: auto;
+   width: 25%;
+  }
+
+}
