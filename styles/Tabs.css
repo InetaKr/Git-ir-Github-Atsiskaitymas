@@ -1,6 +1,4 @@
 .tabs-content {
-    display:none;
-    position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
@@ -10,7 +8,7 @@
     background-color: rgba(63, 62, 62, 0.5);
   }
   .tab-panel {
-    position: relative;
+    position: fixed;
     background-color: #e55d5dc7;
     margin: 70px auto;
     padding: 30px;
